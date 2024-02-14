@@ -25,7 +25,7 @@ jobs:
       - name: Execute a script from the repository
         run: | 
           cd deploy_hed_dev 
-          ./deploy.sh
+          ./deploy.sh dev_github_action
 #      - name: Set up Python ${{ matrix.python-version }}
 #
 #        uses: actions/setup-python@v4
