@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Execute a script from the repository
-        run: ./deploy_hed_dev/deploy.sh
+        run: deploy_hed_dev/deploy.sh
 #      - name: Set up Python ${{ matrix.python-version }}
 #
 #        uses: actions/setup-python@v4
