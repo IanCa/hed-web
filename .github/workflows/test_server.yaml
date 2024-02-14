@@ -23,7 +23,9 @@ jobs:
         run: chmod +x deploy_hed_dev/deploy.sh
 
       - name: Execute a script from the repository
-        run: deploy_hed_dev/deploy.sh
+        run: | 
+          cd deploy_hed_dev 
+          deploy_hed_dev/deploy.sh
 #      - name: Set up Python ${{ matrix.python-version }}
 #
 #        uses: actions/setup-python@v4
