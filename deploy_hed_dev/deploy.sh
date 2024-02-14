@@ -12,7 +12,7 @@ fi
 DEPLOY_DIR=${PWD}
 IMAGE_NAME="hedtools_dev:latest"
 CONTAINER_NAME="hedtools_dev"
-GIT_WEB_REPO_URL="https://github.com/hed-standard/hed-web"
+GIT_WEB_REPO_URL="https://github.com/ianca/hed-web"
 GIT_HED_WEB_DIR="${DEPLOY_DIR}/hed-web"
 GIT_WEB_REPO_BRANCH=${BRANCH}
 HOST_PORT=33004
