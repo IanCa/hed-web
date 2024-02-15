@@ -42,6 +42,7 @@ class Test(unittest.TestCase):
         return headers
 
     def test_submit_service_sidecar_route(self):
+        print("running test!")
         url = f"{BASEURL}/services_submit"
 
         headers = self._get_headers()

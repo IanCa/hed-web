@@ -39,7 +39,7 @@ jobs:
           pip install requests
 
       - name: Run service tests
-        run: python3 "tests2/test_routes_services_sidecars.py"
+        run: python -m unittest discover tests2
 
 #      - name: Install dependencies(using develop hed-python)
 #        if: ${{ env.BRANCH_NAME != 'stable' || env.BRANCH_NAME != 'master' }}
